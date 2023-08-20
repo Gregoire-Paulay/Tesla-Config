@@ -1,0 +1,79 @@
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 34px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+h2 {
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  margin: 25px 0;
+}
+
+/* --------------------------------- */
+/* ------------- MAIN -------------- */
+/* --------------------------------- */
+section > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+section > div > button {
+  font-size: 18px;
+  padding: 15px 0;
+  border-radius: 30px;
+}
+.choice {
+  border: 1px blue solid;
+}
+
+.cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 30px;
+}
+.cart button {
+  background-color: rgb(75, 75, 231);
+  border: none;
+  padding: 8px 15px;
+  border-radius: 8px;
+  font-size: 22px;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 9px #999;
+}
+.cart p {
+  font-size: 28px;
+}
+.cart button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+/* --------------------------------- */
+/* ------------ FOOTER ------------- */
+/* --------------------------------- */
+
+footer {
+  padding: 30px;
+  background-color: whitesmoke;
+  margin-top: 40px;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
